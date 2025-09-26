@@ -31,7 +31,14 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+
 PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-3cat-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
