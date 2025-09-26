@@ -37,6 +37,7 @@ PACKAGES="$PACKAGES luci-i18n-3cat-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
