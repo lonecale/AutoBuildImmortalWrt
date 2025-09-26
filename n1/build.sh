@@ -36,8 +36,6 @@ PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-3cat-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 
 # 判断是否需要编译 Docker 插件
